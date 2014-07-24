@@ -1,5 +1,9 @@
-1.Subject
-2.Activity_name
+The table produced by the script (exported as tidydata.txt) includes the following columns. 
+
+1.Subject: The Integer Assigned the test subject
+2.Activity_name: Character String describing the activity the test subject is performing
+
+The remain columns are cacluated means of the following observations.
 3.tBodyAcc.mean...X
 4.tBodyAcc.mean...Y
 5.tBodyAcc.mean...Z
@@ -44,3 +48,6 @@
 44.fBodyAcc.mean...Y
 45.fBodyAcc.mean...Z
 46.fBodyAcc.std...X
+
+Full descriptions of these obersavtions, and how they were derived in the expermentation stage can be 
+found in the features_info.txt file. 
